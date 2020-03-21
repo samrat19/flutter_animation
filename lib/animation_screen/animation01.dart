@@ -16,7 +16,7 @@ class _AnimationFirstState extends State<AnimationFirst>
   void initState() {
     super.initState();
     animationController = AnimationController(
-      duration: Duration(seconds: 5),
+      duration: Duration(seconds: 2),
       vsync: this,
     );
 
@@ -29,7 +29,7 @@ class _AnimationFirstState extends State<AnimationFirst>
     animation = Tween<double>(
       begin: 0.0,
       end: 2 * math.pi,
-    ).animate(animationController/*curvedAnimation*/)
+    ).animate(/*animationController*/curvedAnimation)
     ..addListener((){
       setState(() {});
     })
