@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
 
-class AnimationWidget extends StatefulWidget {
+class MyAnimation extends StatefulWidget {
   @override
-  _AnimationWidgetState createState() => _AnimationWidgetState();
+  _MyAnimationState createState() => _MyAnimationState();
 }
 
-class _AnimationWidgetState extends State<AnimationWidget>
+class _MyAnimationState extends State<MyAnimation>
     with SingleTickerProviderStateMixin {
 
   AnimationController animationController;
