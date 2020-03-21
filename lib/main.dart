@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutteranimation/animation_screen/animation01.dart';
+import 'package:flutteranimation/animation_screen/my_animated_widget.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AnimationFirst(),
+      home: AnimationWidget(),
     );
   }
 }
